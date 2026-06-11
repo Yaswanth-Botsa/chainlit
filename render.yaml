@@ -8,4 +8,5 @@ services:
     envVars:
       - key: GROQ_API_KEY
         sync: false
-    pythonVersion: "3.11.9"
+      - key: PYTHON_VERSION
+        value: 3.11.9
